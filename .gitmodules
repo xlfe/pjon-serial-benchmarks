@@ -1,3 +1,9 @@
 [submodule "PJON"]
 	path = PJON
 	url = https://github.com/gioblu/PJON.git
+[submodule "esp-idf"]
+	path = esp-idf
+	url = https://github.com/espressif/esp-idf.git
+[submodule "devices/esp32/components/arduino"]
+	path = devices/esp32/components/arduino
+	url = https://github.com/espressif/arduino-esp32.git
