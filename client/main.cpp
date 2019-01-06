@@ -34,7 +34,7 @@ char serial_port[] = "/dev/tty.wchusbserial1410";
 
 char *data = (char*)malloc(128);
 
-PJON<ThroughSerial> bus(45);
+PJON<ThroughSerialAsync> bus(45);
 pps avg;
 
 void receiver_function(uint8_t *payload, uint16_t length, const PJON_Packet_Info &packet_info) {

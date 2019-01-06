@@ -1,4 +1,4 @@
 build/
 .idea/
-client
+client.o
 *.old

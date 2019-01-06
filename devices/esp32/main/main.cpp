@@ -26,7 +26,7 @@ void setup() {
     Serial.begin(115200);
 
     //Serial
-    StrategyLink <ThroughSerial> *link_tsa = new StrategyLink<ThroughSerial>;
+    StrategyLink <ThroughSerialAsync> *link_tsa = new StrategyLink<ThroughSerialAsync>;
     link_tsa->strategy.set_serial(&Serial);
 
     bus = new PJON<Any>(44);
